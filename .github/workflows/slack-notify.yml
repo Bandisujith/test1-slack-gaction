@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-20.04
     name: Sends a message to Slack when a push, a pull request or an issue is made
     env: 
-          SLACK_BOT_TOKEN: xoxb-386956934151-2348761920038-Hwb21CAe4JgCUlwU6hDrGSNC
+          SLACK_BOT_TOKEN: xoxb-386956934151-2348761920038-8X5s3YirbbaGW08jONjqvZTe
           SLACK_CHANNEL_ID: C02AWCUCA1W
     steps:
       - name: Send message to Slack API
