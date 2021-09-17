@@ -15,6 +15,6 @@ jobs:
         id: notify
         
         with:
-          slack-bot-user-oauth-access-token: ${{ SLACK_BOT_TOKEN }}
-          slack-channel: ${{ SLACK_CHANNEL_ID }}
+          slack-bot-user-oauth-access-token: ${{ env.SLACK_BOT_TOKEN }}
+          slack-channel: ${{ env.SLACK_CHANNEL_ID }}
           slack-text: Hello! Event "${{ github.event_name }}" in "${{ github.repository }}" 
